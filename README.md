@@ -25,7 +25,7 @@ go get https://github.com/xuexin520/golodash
 func IndexOfInt(items DashSliceInt, value int) int
 
 Items:  an slice of values of type int
-Return: the first index value found in array
+Return(int): the first index value found in array, No found for return -1
 ```
 
 ###  <a name='funcIndexOfInt8'></a> func IndexOfInt8
@@ -33,7 +33,7 @@ Return: the first index value found in array
 func IndexOfInt8(items DashSliceInt8, value int8) int
 
 Items:  an slice of values of type int8
-Return: the first index value found in array
+Return(int): the first index value found in array, No found for return -1
 ```
 
 ###  <a name='funcIndexOfInt32'></a> func  IndexOfInt32
@@ -41,7 +41,7 @@ Return: the first index value found in array
 func IndexOfInt32(items DashSliceInt32, value int32) int
 
 Items:  an slice of values of type int32
-Return: the first index value found in array
+Return(int): the first index value found in array, No found for return -1
 ```
 
 ###  <a name='funcIndexOfInt64'></a> func  IndexOfInt64
@@ -49,7 +49,7 @@ Return: the first index value found in array
 func IndexOfInt64(items DashSliceInt64, value int64) int
 
 Items:  an slice of values of type int64
-Return: the first index value found in array
+Return(int): the first index value found in array, No found for return -1
 ```
 
 ###  <a name='funcIndexOfInterface'></a> func IndexOfInterface  
@@ -57,5 +57,5 @@ Return: the first index value found in array
 func IndexOfInterface(items DashSliceInterface, value interface{}) int
 
 Items:  an slice of values of type interface
-Return: the first index value found in array
+Return(int): the first index value found in array, No found for return -1
 ```
