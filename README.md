@@ -22,13 +22,12 @@ go get https://github.com/xuexin520/golodash
 ###  <a name='funcIndexOfInt'></a> func  IndexOfInt
 ```
 func IndexOfInt(items DashSliceInt, value int) int
-
-Items:  an slice of values of type int
-Return: the first index value found in array
 ```
+#### Items:  an slice of values of type int
+#### Return: the first index value found in array
 
 ###  <a name='funcIndexOfInt8'></a> func  IndexOfInt8
-```
+```go
 func IndexOfInt8(items DashSliceInt8, value int8) int
 
 Items:  an slice of values of type int8
