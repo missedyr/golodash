@@ -53,7 +53,7 @@ Items:  an slice of values of type int64
 Return: the first index value found in array
 ```
 
-###  <a name='funcIndexOfInterface'></a> func  IndexOfInterface
+###  <a name='funcIndexOfInterface'></a> func [IndexOfInterface](/lodash/indexOf.go#IndexOfInterface)  
 ```
 func IndexOfInterface(items DashSliceInterface, value interface{}) int
 
