@@ -12,16 +12,15 @@ go get https://github.com/xuexin520/golodash
 * [func  IndexOfInt64](#funcIndexOfInt64)
 * [func  IndexOfInterface](#funcIndexOfInterface)
 
-***
+##
 
 ### 字符串
 
 
-
-***
+##
 
 ### func 描述
-###  <a name='funcIndexOfInt'></a> func [IndexOfInt](/lodash/indexOf.go#IndexOfInt)
+###  <a name='funcIndexOfInt'></a> func IndexOfInt
 ```
 func IndexOfInt(items DashSliceInt, value int) int
 
@@ -29,7 +28,7 @@ Items:  an slice of values of type int
 Return: the first index value found in array
 ```
 
-###  <a name='funcIndexOfInt8'></a> func [IndexOfInt8](/lodash/indexOf.go#IndexOfInt8) 
+###  <a name='funcIndexOfInt8'></a> func IndexOfInt8
 ```
 func IndexOfInt8(items DashSliceInt8, value int8) int
 
@@ -53,7 +52,7 @@ Items:  an slice of values of type int64
 Return: the first index value found in array
 ```
 
-###  <a name='funcIndexOfInterface'></a> func [IndexOfInterface](/lodash/indexOf.go#IndexOfInterface)  
+###  <a name='funcIndexOfInterface'></a> func IndexOfInterface  
 ```
 func IndexOfInterface(items DashSliceInterface, value interface{}) int
 
