@@ -17,14 +17,14 @@ go get https://github.com/xuexin520/golodash
 
 
 
-##
+***
+
 ### func 描述
-###  <a name='funcIndexOfInt'></a> func  IndexOfInt
-```google cloud
-func IndexOfInt(items DashSliceInt, value int) int
-```
-#### Items:  an slice of values of type int
-#### Return: the first index value found in array
+###  <a name='funcIndexOfInt'></a> func [IndexOfInt](/lodash/indexOf.go#IndexOfInt)
+> func IndexOfInt(items DashSliceInt, value int) int
+
+> Items:  an slice of values of type int
+> Return: the first index value found in array
 
 ###  <a name='funcIndexOfInt8'></a> func  IndexOfInt8
 ```go
@@ -35,12 +35,12 @@ Return: the first index value found in array
 ```
 
 ###  <a name='funcIndexOfInt32'></a> func  IndexOfInt32
-```go
-func IndexOfInt32(items DashSliceInt32, value int32) int
 ```
-#### Items:  an slice of values of type int32
-#### Return: the first index value found in array
+func IndexOfInt32(items DashSliceInt32, value int32) int
 
+Items:  an slice of values of type int32
+Return: the first index value found in array
+```
 
 ###  <a name='funcIndexOfInt64'></a> func  IndexOfInt64
 ```
