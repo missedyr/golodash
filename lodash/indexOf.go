@@ -1,5 +1,14 @@
 package lodash
 
+import "encoding/json"
+
+func IndexOfString(items DashSliceString, value string) int {
+	var list DashSliceInterface
+	itemsMs, _ := json.Marshal(items)
+	_ = json.Unmarshal(itemsMs, &list)
+	return IndexOfInterface(list, value)
+}
+
 func IndexOfInt(items DashSliceInt, value int) int {
 	var index = -1
 	for i, v := range items {

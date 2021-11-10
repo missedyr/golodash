@@ -2,10 +2,11 @@
 
 ##
 ###  使用方法
-go get https://github.com/xuexin520/golodash
+go get github.com/xuexin520/golodash
 
 ##
 ### 数组 切片 集合
+* [func  IndexOfString](#funcIndexOfString)
 * [func  IndexOfInt](#funcIndexOfInt)
 * [func  IndexOfInt8](#funcIndexOfInt8)
 * [func  IndexOfInt32](#funcIndexOfInt32)
@@ -20,6 +21,14 @@ go get https://github.com/xuexin520/golodash
 ##
 
 ### func 描述
+###  <a name='funcIndexOfString'></a> func IndexOfString
+```
+func IndexOfString(items DashSliceString, value string) int
+
+Items:  an slice of values of type string
+Return(int): the first index value found in array, No found for return -1
+```
+
 ###  <a name='funcIndexOfInt'></a> func IndexOfInt
 ```
 func IndexOfInt(items DashSliceInt, value int) int
