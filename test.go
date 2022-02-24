@@ -15,5 +15,11 @@ package test
 //
 //	arr3 := []string{"1","2","3","ios"}
 //	log.Print("33333  ", lodash.IndexOfString(arr3, "ios"))
+//
+//	aa := map[string]int64{"sdf":2}
+//	bb := map[string]string{"sdfs":"shd"}
+//	cc := map[string]string{"sddfs":"34"}
+//	dd := map[string]int64{"sdf":5}
+//	lodash.Assign(aa, bb, cc, dd)
 //}
 
