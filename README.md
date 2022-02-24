@@ -2,7 +2,7 @@
 
 ##
 ###  使用方法
-go get github.com/xuexin520/golodash
+go get github.com/missedyr/golodash
 
 ##
 ### 数组 切片 集合
