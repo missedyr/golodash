@@ -17,6 +17,10 @@ go get github.com/xuexin520/golodash
 
 ### 字符串
 
+##
+
+### 对象 map
+* [func  Assign](#funcAssign)
 
 ##
 
@@ -67,4 +71,14 @@ func IndexOfInterface(items DashSliceInterface, value interface{}) int
 
 Items:  an slice of values of type interface
 Return(int): the first index value found in array, No found for return -1
+```
+
+
+###  <a name='funcAssign'></a> func Assign
+```
+func Assign(mapObj interface{}, sources ...interface{}) map[string]interface{} 
+
+mapObj (map): 目标对象。
+[sources] (...map): 来源对象
+Return(int): map[string]interface{}
 ```
