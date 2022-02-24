@@ -1,4 +1,4 @@
-module github.com/xuexin520/golodash
+module github.com/missedyr/golodash
 
 go 1.14
 
