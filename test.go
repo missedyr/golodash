@@ -1,10 +1,5 @@
 package test
 
-//import (
-//	"github.com/xuexin520/golodash/lodash"
-//	"log"
-//)
-//
 //func main()  {
 //	arr := lodash.DashSliceInterface{1,2,3,"4",5}
 //
@@ -19,7 +14,11 @@ package test
 //	aa := map[string]int64{"sdf":2}
 //	bb := map[string]string{"sdfs":"shd"}
 //	cc := map[string]string{"sddfs":"34"}
-//	dd := map[string]int64{"sdf":5}
-//	lodash.Assign(aa, bb, cc, dd)
+//
+//	type Dd struct {
+//		A1 string
+//	}
+//	dd := Dd{A1: "2314"}
+//	log.Print("5555", lodash.Assign(aa, bb, cc, dd))
 //}
 

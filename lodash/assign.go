@@ -7,7 +7,7 @@ import (
 
 func Assign(mapObj interface{}, sources ...interface{}) map[string]interface{} {
 	var mapNew map[string]interface{}
-	if reflect.ValueOf(mapObj).Kind() != reflect.Map {
+	if reflect.ValueOf(mapObj).Kind() != reflect.Map && reflect.ValueOf(mapObj).Kind() != reflect.Struct {
 		return mapNew
 	}
 
@@ -15,7 +15,7 @@ func Assign(mapObj interface{}, sources ...interface{}) map[string]interface{} {
 	_ = json.Unmarshal(j, &mapNew)
 
 	for _, obj := range sources {
-		if reflect.ValueOf(obj).Kind() != reflect.Map {
+		if reflect.ValueOf(obj).Kind() != reflect.Map && reflect.ValueOf(obj).Kind() != reflect.Struct {
 			continue
 		}
 		objNew := map[string]interface{}{}

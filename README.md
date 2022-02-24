@@ -73,12 +73,13 @@ Items:  an slice of values of type interface
 Return(int): the first index value found in array, No found for return -1
 ```
 
+****
 
 ###  <a name='funcAssign'></a> func Assign
 ```
 func Assign(mapObj interface{}, sources ...interface{}) map[string]interface{} 
 
-mapObj (map): 目标对象。
-[sources] (...map): 来源对象
+mapObj (map): 目标对象。   map或struct值 不接收指针类型
+[sources] (...map): 来源对象   map或struct值 不接收指针类型
 Return(int): map[string]interface{}
 ```
