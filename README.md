@@ -12,7 +12,9 @@ go get github.com/missedyr/golodash
 * [func  IndexOfInt32](#funcIndexOfInt32)
 * [func  IndexOfInt64](#funcIndexOfInt64)
 * [func  IndexOfInterface](#funcIndexOfInterface)
-
+* [func  ConcatOfInt](#funcConcatOfInt)
+* [func  ConcatOfString](#funcConcatOfString)
+* [func  ConcatOfInterface](#funcConcatOfInterface)
 ##
 
 ### 字符串
@@ -71,6 +73,36 @@ func IndexOfInterface(items DashSliceInterface, value interface{}) int
 
 Items:  an slice of values of type interface
 Return(int): the first index value found in array, No found for return -1
+```
+
+****
+
+###  <a name='funcConcatOfInt'></a> func ConcatOfInt
+```
+func ConcatOfInt(arrays ...[]int) []int
+
+arrays:  an slice of values of type int
+Return:  the new array after joining
+```
+
+****
+
+###  <a name='funcConcatOfString'></a> func ConcatOfString
+```
+func ConcatOfString(arrays ...[]string) []string
+
+arrays:  an slice of values of type string
+Return:  the new array after joining
+```
+
+****
+
+###  <a name='funcConcatOfInterface'></a> func ConcatOfInterface
+```
+func ConcatOfInterface(arrays ...[]interface{}) []interface{}
+
+arrays:  an slice of values of type interface
+Return:  the new array after joining
 ```
 
 ****
